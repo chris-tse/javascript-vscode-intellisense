@@ -1,0 +1,22 @@
+{
+  "name": "intellisense",
+  "version": "1.0.0",
+  "description": "This project is a simple boilerplate for enabling intellisense when working on different files that don't import functions from other files (such as when working on vanilla JS or JQuery).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris-tse/javascript-vscode-intellisense.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris-tse/javascript-vscode-intellisense/issues"
+  },
+  "homepage": "https://github.com/chris-tse/javascript-vscode-intellisense#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
