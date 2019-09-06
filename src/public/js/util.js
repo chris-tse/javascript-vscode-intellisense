@@ -16,8 +16,9 @@ function subtract(a, b) {
     return a - b;
 }
 
-const library = { add, subtract };
-
 (function(exports) {
-    Object.assign(exports, library)
+    Object.assign(exports, {
+        add,
+        subtract,
+    })
 })(typeof exports === 'undefined' ? this['util']={} : exports)
